@@ -1,9 +1,14 @@
 # HelloWorldSpring
 package org.com.databarang.repository;
-import java.util.Collection;
 
+import java.util.Collection;
 import org.springframework.dao.DataAccessException;
 import org.com.databarang.model.dataUser;
+
+/**
+ *
+ * @author ibued
+ */
 
 public interface UserRepository {
 
