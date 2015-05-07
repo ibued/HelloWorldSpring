@@ -3,13 +3,17 @@
 package org.com.databarang.service;
 
 import java.util.Collection;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.com.databarang.model.dataUser;
 import org.com.databarang.repository.UserRepository;
+
+/**
+ *
+ * @author ibued
+ */
 
 @Service
 public class DataUserServiceImpl implements dataUserService {
@@ -60,24 +64,5 @@ public class DataUserServiceImpl implements dataUserService {
 	public void hapusUser(String id) throws DataAccessException {
 		userRepo.hapusUser(id);
 	}
-
-	/*@Override
-	@Transactional(readOnly = true)
-	public void hapus(dataUser dataUser, String id) throws DataAccessException {
-		userRepo.hapus(id);
-	}*/
-	
-	 /*@Override
-	    @Transactional(readOnly = true)
-	    public Owner findOwnerById(int id) throws DataAccessException {
-	        return ownerRepository.findById(id);
-	    }
-	
-	/*@Override
-    @Transactional
-    public void savePet(Pet pet) throws DataAccessException {
-        petRepository.save(pet);
-    }
-*/
 
 }
