@@ -1,6 +1,6 @@
 # HelloWorldSpring
 
-package org.unirow.databarang.model;
+package org.com.databarang.model;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
