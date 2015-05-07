@@ -21,7 +21,7 @@ import org.com.databarang.model.dataUser;
 import org.com.databarang.repository.UserRepository;
 
 @Repository
-public class jdbcUserRepository implements UserRepository {
+public class JdbcUserRepository implements UserRepository {
 
 	private NamedParameterJdbcTemplate namedParameterJdbcTemplate;	
 	private SimpleJdbcInsert insertUser;
