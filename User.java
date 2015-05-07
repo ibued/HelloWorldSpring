@@ -4,6 +4,11 @@ package org.com.databarang.model;
 
 import org.hibernate.validator.constraints.NotEmpty;
 
+/**
+ *
+ * @author ibued
+ */
+
 public class DataUser {
 	
 	@NotEmpty
