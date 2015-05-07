@@ -5,9 +5,7 @@ package org.com.databarang.repository.jdbc;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
-
 import javax.sql.DataSource;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataAccessException;
 import org.springframework.dao.EmptyResultDataAccessException;
@@ -19,6 +17,11 @@ import org.springframework.stereotype.Repository;
 import org.com.databarang.model.DatauserRowMapper;
 import org.com.databarang.model.dataUser;
 import org.com.databarang.repository.UserRepository;
+
+/**
+ *
+ * @author ibued
+ */
 
 @Repository
 public class JdbcUserRepository implements UserRepository {
