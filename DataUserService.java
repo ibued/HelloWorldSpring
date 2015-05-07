@@ -3,12 +3,14 @@
 package org.com.databarang.service;
 
 import java.util.Collection;
-
 import org.springframework.dao.DataAccessException;
-
-
 import org.com.databarang.model.dataUser;
 
+/**
+ *
+ * @author ibued
+ */
+ 
 public interface DataUserService {
 
 	public Collection<dataUser> getAll() throws DataAccessException;   
