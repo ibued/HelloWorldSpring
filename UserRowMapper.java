@@ -4,8 +4,12 @@ package org.com.databarang.model;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
-
 import org.springframework.jdbc.core.RowMapper;
+
+/**
+ *
+ * @author ibued
+ */
 
 public class DatauserRowMapper implements RowMapper<DataUser> {
 
